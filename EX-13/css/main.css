@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+nav {
+    background: orange;
+    padding: 15px;
+}
+header {
+    height: 50vh;
+    background: url('../images/header.jpg');
+    background-size: cover;
+    background-position: center 30%;
+}
+section {
+    flex: 5;
+    display: flex;
+    padding: 10px;
+}
+main {
+    padding: 10px;
+    flex: 2;
+}
+.content {
+    flex: 3;
+    overflow-y: scroll;
+    height: 70vh;
+}
+article {
+    display: flex;
+    padding: 10px;
+}
+.text {
+    padding: 10px;
+}
+article img {
+    width: 30%;
+}
+footer {
+    flex: 1;
+    background: #000;
+}
+
+/* Breakpoints */
+@media (max-width:1000px) {
+   
+
+}
+@media (max-width:900px) {
+   
+
+}
+@media (max-width:700px) {
+
+}

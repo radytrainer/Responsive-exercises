@@ -1,0 +1,15 @@
+
+body {
+    background-color: #111;
+    color: #fff;
+    height: 90vh;
+    display: grid;
+    place-content: center;
+}
+
+@media (orientation:portrait) {
+   
+}
+@media (orientation:landscape) {
+   
+}
